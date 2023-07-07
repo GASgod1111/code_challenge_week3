@@ -1,0 +1,91 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkgreen;
+  }
+  
+  #header1 {
+    text-align: center;
+    background-color: aquamarine;
+    color: #b175aa;
+    padding: 10px;
+  }
+  
+  #me {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #c6d763;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #poster {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #showtime, #runtime, #ticketsAvailable {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  #content {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #c3da83;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #movie-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+    text-align:start;
+  }
+  #movie-list:hover{
+    background-color: chocolate;
+    cursor: pointer;
+  }
+  
+  #movieDetails {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #movieDetails:hover{
+    background-color: #b175aa;
+    cursor: pointer;
+  }
+  
+  #ticketButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #ticketButton{
+    background-color: goldenrod;
+  }
+  #ticketButton:hover {
+    background-color: #555;
+  }
+  

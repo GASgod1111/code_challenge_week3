@@ -1,46 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FlatDango - Movie Ticket Purchasing</title>
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>
-    <h1>FlatDango - Movie Ticket Purchasing</h1>
-  </header>
-  <div class="movies">
-    <h2>Movie List</h2>
-    <ul id="films">
-      <li class="film item" id="placeholder">Loading...</li>
-    </ul>
-  </div>
-
-  <div class="movieDetails">
-    <h2>Movie Details</h2>
-    <div class="movieInfo" id="movieInfo">
-      <img src="" alt="Movie Poster" id="poster">
-      <h3 id="title"></h3>
-      <p><strong>Description:</strong></p>
-         <p id="description"></p>
-      
-      
+    <h1 id="header1">FLATDANGO MOVIES</h1>
+     <div id="me">
+        <img id ="poster"src="image/save.jpg" alt="LATEST MOVIE">
+        <h2 id="title">Title:</h2>
+        <p id="description"></p>
+        <p id="showtime">Showtime:</p>
+        <p id="runtime">Runtime:</p>
+        <p id="ticketsAvailable">Available Tickets:</p>
+    </div> 
+    <div id="content">
+        <div>
+            <ul id="movie-list"></ul>
+        </div>
+        <div id="movieDetails"></div>
     </div>
-  </div>
-  <div>
-    <button class="MovieDetails" data-film="Title">Title</button>
-    <button class="MovieDetails" data-film="Runtime">Runtime</button>
-    <button class="MovieDetails" data-film="Capacity">Capacity</button>
-    <button class="MovieDetails" data-film="Showtime">Showtime</button>
-    <button class="MovieDetails" data-film="Tickets_sold">Tickets Sold</button>
-    <button class="MovieDetails" data-film="Description">Description</button>
-    <button class="MovieDetails" data-film="Poster">Poster</button>
-  </div>
-  <button id="buy-ticket" disabled>Buy Ticket</button>
+   
 
-  
+    <button id="ticketButton">Buy Ticket</button>
+    <script src="index.js"></script>
 
-  <script src="index.js"></script>
 </body>
 </html>
+
